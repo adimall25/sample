@@ -14,10 +14,49 @@
 		<img src = "download.jpg" alt = "Sample Image">
 		<figcaption>&copy;This image is the property of Adarsh Kumar Mall</figcaption>
 	</figure>
-
 	<main>
-		<p>The asked link is given ahead : <a href="https://moodle.iitdh.ac.in/login/index.php"> 
-			<img src="1.png" alt = "Moodle Logo" width = "20px"></a></p>
+		<div id = "Absolute">
+			<h4>
+				Absolute References
+			</h4>
+			<p>Absolute references are hyperlinks to other external sources which are not in your computer.
+				<br>Examples:
+				<br>1 : <a href="https://www.coursera.org/" target="_blank">Coursera</a>
+				<br>2 : <a href="https://www.youtube.com/">Youtube</a>
+				<br>3 : <a href="https://thetypingcat.com/typing-speed-test/1m">Typing Test</a>
+		</div>
+		<video src="video.mp4" width = "500" controls>The Browser was unable to load the video</video>
+		<div id = "Relative">
+			<h4>
+				Relative References
+			</h4>
+			<p>Relative references are hyperlinks to some local file i.e in your computer.</p>
+		</div>
+
+
+		<table border = "3">
+			<tr><th>Name</th><th>Roll No.</th></tr>
+			<tr><td rowspan = 2>Adarsh</td><td>190010003</td></tr>
+			<tr><td>190030017</td></tr>
+			<tr><td>Harsh</td><td>190010019</td></tr>
+		</table>
+
+		<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+</blockquote>
+
+		<details>
+  <summary>Copyright 1999-2018.</summary>
+  <p> - by Refsnes Data. All Rights Reserved.</p>
+  <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+</details>
 	</main>
+
+	<footer>
+		<h4>Internal References</h4>
+		<p>1 : <a href="#Absolute">Absolute References</a></p>
+		<p>2 : <a href="#Relative">Relative References</a></p>
+		<br>&copy;This webpage is the property of Adarsh Kumar Mall
+	</footer>
 </body>
 </html>
